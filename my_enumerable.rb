@@ -17,5 +17,3 @@ module MyEnumerable
     p filtered_nums
   end
 end
-
-
