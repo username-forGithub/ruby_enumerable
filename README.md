@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Create your own Enumerable
+# Enumerable
 - Use Ruby syntax for basic programming operations.
 - Apply Ruby best practices and language style guides in code.
 
