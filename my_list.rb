@@ -28,9 +28,3 @@ my_list_obj.any? { |e| e == 5 } # => false
 
 # Test #filter method
 my_list_obj.filter(&:even?) # => [2,4]
-Add this to my_enumerable
-def filter
-  filtered_nums = []
-  list.each { |num| filtered_nums.push(num) if yield num }
-  p filtered_nums
-end
