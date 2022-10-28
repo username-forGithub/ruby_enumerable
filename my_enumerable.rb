@@ -10,7 +10,7 @@ module MyEnumerable
     list.each { |num| nums.push(num) if yield num }
     p !nums.empty?
   end
-  
+
   def filter
     filtered_nums = []
     list.each { |num| filtered_nums.push(num) if yield num }
